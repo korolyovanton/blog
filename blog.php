@@ -1,7 +1,6 @@
 <?php
 
 $textStorage = [];
-$elementsCount = count($textStorage);
 
 function add (&$textStorage, string $title, string $text) {
     $textStorage[] = [
